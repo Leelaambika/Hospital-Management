@@ -1,181 +1,100 @@
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (1, 'Cardiology', 'Sneha Sharma');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (2, 'Neurology', 'Divya Reddy');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (3, 'Orthopedics', 'Rahul Sharma');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (4, 'Pediatrics', 'Amit Verma');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (5, 'Oncology', 'Vikram Kumar');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (6, 'Dermatology', 'Divya Reddy');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (7, 'Gastroenterology', 'Sneha Bose');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (8, 'Endocrinology', 'Suman Verma');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (9, 'ENT', 'Arjun Kapoor');
-INSERT INTO Departments (DepartmentID, Name, Head) VALUES (10, 'Psychiatry', 'Arjun Singh');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (1, 'Rahul Sharma', 'Cardiology', 1, '9999922751');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (2, 'Arjun Nair', 'Neurology', 2, '9999974160');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (3, 'Priya Sharma', 'Orthopedics', 3, '9999959130');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (4, 'Vikram Reddy', 'Pediatrics', 4, '9999950435');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (5, 'Divya Sharma', 'Oncology', 5, '9999930639');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (6, 'Amit Verma', 'Dermatology', 6, '9999936814');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (7, 'Neha Mehta', 'Gastroenterology', 7, '9999951351');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (8, 'Karan Reddy', 'Endocrinology', 8, '9999958127');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (9, 'Rahul Sharma', 'ENT', 9, '9999999489');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (10, 'Amit Verma', 'Psychiatry', 10, '9999917084');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (11, 'Sneha Verma', 'Cardiology', 1, '9999988854');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (12, 'Rahul Singh', 'Neurology', 2, '9999917134');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (13, 'Neha Sharma', 'Orthopedics', 3, '9999921586');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (14, 'Priya Mehta', 'Pediatrics', 4, '9999940037');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (15, 'Karan Patel', 'Oncology', 5, '9999938498');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (16, 'Karan Mehta', 'Dermatology', 6, '9999920438');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (17, 'Vikram Bose', 'Gastroenterology', 7, '9999910448');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (18, 'Neha Patel', 'Endocrinology', 8, '9999954960');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (19, 'Sneha Sharma', 'ENT', 9, '9999972910');
-INSERT INTO Doctors (DoctorID, Name, Specialization, DepartmentID, Contact) VALUES (20, 'Divya Verma', 'Psychiatry', 10, '9999993230');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (1, 'Vikram Bose', 62, 'Male', 'Address 1', '9876561276', 'Emergency44073', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (2, 'Rahul Reddy', 27, 'Female', 'Address 2', '9876577349', 'Emergency80088', 'Provider 4');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (3, 'Priya Mehta', 49, 'Male', 'Address 3', '9876518811', 'Emergency72480', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (4, 'Arjun Bose', 18, 'Male', 'Address 4', '9876598557', 'Emergency82691', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (5, 'Karan Verma', 78, 'Male', 'Address 5', '9876581406', 'Emergency37750', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (6, 'Karan Verma', 9, 'Male', 'Address 6', '9876544130', 'Emergency13154', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (7, 'Arjun Kumar', 63, 'Female', 'Address 7', '9876533465', 'Emergency36318', 'Provider 4');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (8, 'Priya Verma', 25, 'Female', 'Address 8', '9876565261', 'Emergency93406', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (9, 'Suman Sharma', 27, 'Male', 'Address 9', '9876515789', 'Emergency55878', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (10, 'Amit Sharma', 38, 'Male', 'Address 10', '9876552468', 'Emergency32790', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (11, 'Karan Nair', 78, 'Male', 'Address 11', '9876573475', 'Emergency28052', 'Provider 1');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (12, 'Vikram Singh', 64, 'Male', 'Address 12', '9876541608', 'Emergency21716', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (13, 'Amit Sharma', 53, 'Female', 'Address 13', '9876568692', 'Emergency65735', 'Provider 2');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (14, 'Divya Bose', 10, 'Female', 'Address 14', '9876516693', 'Emergency16670', 'Provider 2');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (15, 'Priya Nair', 54, 'Female', 'Address 15', '9876514747', 'Emergency12133', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (16, 'Amit Kapoor', 9, 'Female', 'Address 16', '9876530941', 'Emergency38208', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (17, 'Amit Patel', 11, 'Female', 'Address 17', '9876511390', 'Emergency20383', 'Provider 5');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (18, 'Suman Singh', 58, 'Female', 'Address 18', '9876553486', 'Emergency48640', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (19, 'Divya Patel', 50, 'Female', 'Address 19', '9876543929', 'Emergency39169', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (20, 'Arjun Kapoor', 63, 'Female', 'Address 20', '9876526066', 'Emergency16392', 'Provider 4');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (21, 'Karan Bose', 27, 'Female', 'Address 21', '9876537897', 'Emergency56207', 'Provider 2');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (22, 'Divya Bose', 72, 'Female', 'Address 22', '9876590457', 'Emergency14067', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (23, 'Priya Verma', 51, 'Female', 'Address 23', '9876548752', 'Emergency60847', 'Provider 4');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (24, 'Arjun Bose', 58, 'Male', 'Address 24', '9876590110', 'Emergency32463', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (25, 'Priya Sharma', 59, 'Female', 'Address 25', '9876573741', 'Emergency41453', 'Provider 1');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (26, 'Rahul Reddy', 73, 'Female', 'Address 26', '9876520242', 'Emergency64126', 'Provider 2');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (27, 'Karan Bose', 46, 'Male', 'Address 27', '9876511294', 'Emergency98722', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (28, 'Karan Sharma', 73, 'Female', 'Address 28', '9876533983', 'Emergency80366', 'Provider 1');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (29, 'Suman Singh', 66, 'Male', 'Address 29', '9876510884', 'Emergency72644', 'Provider 3');
-INSERT INTO Patients (PatientID, Name, Age, Gender, Address, Contact, EmergencyContact, InsuranceProvider) VALUES (30, 'Rahul Verma', 80, 'Female', 'Address 30', '9876563512', 'Emergency93246', 'Provider 5');
-INSERT INTO Rooms (RoomID, RoomType, ChargesPerDay) VALUES (1, 'General', 1000);
-INSERT INTO Rooms (RoomID, RoomType, ChargesPerDay) VALUES (2, 'Semi-Private', 2000);
-INSERT INTO Rooms (RoomID, RoomType, ChargesPerDay) VALUES (3, 'Private', 3000);
-INSERT INTO Rooms (RoomID, RoomType, ChargesPerDay) VALUES (4, 'ICU', 5000);
-INSERT INTO Rooms (RoomID, RoomType, ChargesPerDay) VALUES (5, 'Deluxe', 4000);
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (1, 29, 5, '2024-01-04', '2024-02-15');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (2, 29, 4, '2024-11-25', '2023-11-28');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (3, 17, 5, '2023-10-15', '2023-01-20');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (4, 7, 3, '2024-09-21', '2024-01-16');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (5, 24, 3, '2024-06-04', '2024-05-07');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (6, 15, 5, '2023-02-08', '2023-11-07');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (7, 30, 2, '2023-12-18', '2024-07-18');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (8, 27, 5, '2024-08-09', '2024-08-08');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (9, 28, 3, '2023-06-29', '2024-04-08');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (10, 25, 3, '2024-08-07', '2023-04-01');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (11, 19, 3, '2024-06-13', '2023-04-10');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (12, 8, 3, '2023-08-09', '2023-04-03');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (13, 5, 1, '2024-06-20', '2024-04-03');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (14, 27, 4, '2024-06-25', '2024-03-02');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (15, 13, 5, '2023-04-07', '2023-07-02');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (16, 30, 4, '2024-01-18', '2024-05-08');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (17, 18, 3, '2023-11-30', '2023-03-02');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (18, 2, 4, '2023-06-21', '2024-07-09');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (19, 2, 1, '2023-12-01', '2023-07-21');
-INSERT INTO Admissions (AdmissionID, PatientID, RoomID, AdmissionDate, DischargeDate) VALUES (20, 6, 1, '2024-10-19', '2024-07-28');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (1, 22, 20, '2023-07-29', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (2, 6, 2, '2023-05-19', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (3, 14, 17, '2023-11-24', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (4, 7, 20, '2024-12-29', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (5, 11, 6, '2023-05-15', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (6, 25, 19, '2024-08-26', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (7, 25, 12, '2024-09-01', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (8, 13, 3, '2024-05-31', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (9, 4, 3, '2023-01-15', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (10, 2, 5, '2023-04-19', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (11, 15, 4, '2024-01-07', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (12, 18, 17, '2023-02-01', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (13, 4, 18, '2023-10-14', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (14, 17, 16, '2024-09-15', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (15, 3, 11, '2024-02-04', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (16, 16, 5, '2024-11-27', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (17, 28, 16, '2023-09-07', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (18, 25, 1, '2024-07-25', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (19, 29, 20, '2023-09-19', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (20, 4, 1, '2023-12-15', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (21, 23, 16, '2023-08-12', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (22, 9, 3, '2023-08-18', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (23, 23, 11, '2023-06-09', 'Checkup');
-INSERT INTO Appointments (AppointmentID, PatientID, DoctorID, AppointmentDate, Reason) VALUES (24, 14, 8, '2024-07-04', 'Checkup');
-INSERT INTO Medications (MedicationID, Name, Description) VALUES (1, 'Paracetamol', 'Pain and fever relief');
-INSERT INTO Medications (MedicationID, Name, Description) VALUES (2, 'Amoxicillin', 'Antibiotic');
-INSERT INTO Medications (MedicationID, Name, Description) VALUES (3, 'Metformin', 'Type 2 Diabetes');
-INSERT INTO Medications (MedicationID, Name, Description) VALUES (4, 'Lisinopril', 'Blood pressure');
-INSERT INTO Medications (MedicationID, Name, Description) VALUES (5, 'Atorvastatin', 'Cholesterol management');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (1, 7, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (2, 12, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (3, 21, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (4, 7, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (5, 2, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (6, 13, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (7, 24, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (8, 19, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (9, 20, 2, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (10, 4, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (11, 20, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (12, 9, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (13, 17, 3, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (14, 2, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (15, 8, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (16, 15, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (17, 22, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (18, 13, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (19, 9, 3, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (20, 1, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (21, 24, 3, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (22, 4, 2, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (23, 14, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (24, 22, 4, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (25, 23, 5, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (26, 10, 1, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (27, 19, 3, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (28, 8, 3, '1 tablet', '5 days');
-INSERT INTO Prescriptions (PrescriptionID, AppointmentID, MedicationID, Dosage, Duration) VALUES (29, 2, 3, '1 tablet', '5 days');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (1, 16, 14, 5890, '2023-10-13');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (2, 28, 1, 10936, '2023-01-02');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (3, 10, 7, 16338, '2024-04-23');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (4, 30, 18, 3262, '2023-11-05');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (5, 1, 2, 4198, '2023-11-17');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (6, 21, 9, 9215, '2023-02-09');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (7, 29, 3, 16536, '2023-05-31');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (8, 18, 8, 14467, '2024-04-27');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (9, 25, 20, 19870, '2023-03-29');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (10, 3, 9, 12371, '2024-10-25');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (11, 21, 19, 8797, '2023-02-27');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (12, 25, 12, 7937, '2024-11-23');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (13, 23, 17, 6374, '2023-09-17');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (14, 10, 14, 9817, '2024-07-15');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (15, 9, 8, 7096, '2024-01-01');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (16, 12, 7, 6435, '2023-11-09');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (17, 13, 9, 4342, '2023-12-28');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (18, 1, 6, 11448, '2023-10-13');
-INSERT INTO Billing (BillID, PatientID, AdmissionID, Amount, BillDate) VALUES (19, 20, 17, 3487, '2023-04-02');
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (1, 30, 'Blood Test', '2023-11-28', 'Normal', 17);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (2, 26, 'Blood Test', '2024-10-16', 'Normal', 15);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (3, 2, 'Blood Test', '2023-02-12', 'Normal', 7);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (4, 10, 'Blood Test', '2024-01-25', 'Normal', 5);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (5, 22, 'Blood Test', '2024-08-02', 'Normal', 15);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (6, 12, 'Blood Test', '2023-06-15', 'Normal', 1);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (7, 14, 'Blood Test', '2023-03-08', 'Normal', 19);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (8, 14, 'Blood Test', '2024-02-15', 'Normal', 15);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (9, 11, 'Blood Test', '2023-03-12', 'Normal', 1);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (10, 27, 'Blood Test', '2024-06-27', 'Normal', 16);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (11, 9, 'Blood Test', '2024-09-21', 'Normal', 1);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (12, 14, 'Blood Test', '2023-05-11', 'Normal', 6);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (13, 14, 'Blood Test', '2023-10-05', 'Normal', 2);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (14, 30, 'Blood Test', '2024-10-16', 'Normal', 11);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (15, 16, 'Blood Test', '2023-04-13', 'Normal', 18);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (16, 30, 'Blood Test', '2023-04-03', 'Normal', 17);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (17, 15, 'Blood Test', '2024-10-06', 'Normal', 15);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (18, 5, 'Blood Test', '2023-02-28', 'Normal', 6);
-INSERT INTO Lab_Reports (ReportID, PatientID, TestName, TestDate, Result, DoctorID) VALUES (19, 25, 'Blood Test', '2024-12-29', 'Normal', 1);
+-- Drop existing tables
+DROP TABLE IF EXISTS Prescriptions;
+DROP TABLE IF EXISTS Appointments;
+DROP TABLE IF EXISTS Billing;
+DROP TABLE IF EXISTS Medications;
+DROP TABLE IF EXISTS Doctors;
+DROP TABLE IF EXISTS Patients;
+
+-- Create tables
+CREATE TABLE Patients (
+    PatientID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Age INTEGER,
+    Gender TEXT,
+    Contact TEXT
+);
+
+CREATE TABLE Doctors (
+    DoctorID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Specialization TEXT,
+    Contact TEXT
+);
+
+CREATE TABLE Medications (
+    MedicationID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Description TEXT
+);
+
+CREATE TABLE Appointments (
+    AppointmentID INTEGER PRIMARY KEY,
+    PatientID INTEGER,
+    DoctorID INTEGER,
+    AppointmentDate TEXT,
+    FOREIGN KEY (PatientID) REFERENCES Patients(PatientID),
+    FOREIGN KEY (DoctorID) REFERENCES Doctors(DoctorID)
+);
+
+CREATE TABLE Billing (
+    BillID INTEGER PRIMARY KEY,
+    PatientID INTEGER,
+    Amount REAL,
+    BillDate TEXT,
+    FOREIGN KEY (PatientID) REFERENCES Patients(PatientID)
+);
+
+CREATE TABLE Prescriptions (
+    PrescriptionID INTEGER PRIMARY KEY,
+    AppointmentID INTEGER,
+    MedicationID INTEGER,
+    Dosage TEXT,
+    Duration TEXT,
+    FOREIGN KEY (AppointmentID) REFERENCES Appointments(AppointmentID),
+    FOREIGN KEY (MedicationID) REFERENCES Medications(MedicationID)
+);
+
+-- Insert sample Patients
+INSERT INTO Patients VALUES
+(1, 'John Doe', 35, 'Male', '999-123-4567'),
+(2, 'Jane Smith', 29, 'Female', '999-987-6543'),
+(3, 'Alice Johnson', 42, 'Female', '999-456-7890'),
+(4, 'Robert Brown', 50, 'Male', '999-654-3210'),
+(5, 'Emily Davis', 31, 'Female', '999-321-9876');
+
+-- Insert sample Doctors
+INSERT INTO Doctors VALUES
+(1, 'Dr. Gregory House', 'Diagnostics', '123-111-2222'),
+(2, 'Dr. Meredith Grey', 'Surgery', '123-222-3333'),
+(3, 'Dr. John Watson', 'General Medicine', '123-333-4444');
+
+-- Insert sample Medications
+INSERT INTO Medications VALUES
+(1, 'Paracetamol', 'Pain reliever and fever reducer'),
+(2, 'Amoxicillin', 'Antibiotic for bacterial infections'),
+(3, 'Ibuprofen', 'Anti-inflammatory drug');
+
+-- Insert Appointments
+INSERT INTO Appointments VALUES
+(1, 1, 1, '2025-05-10'),
+(2, 2, 2, '2025-05-11'),
+(3, 3, 3, '2025-05-12'),
+(4, 4, 1, '2025-05-13'),
+(5, 5, 2, '2025-05-14');
+
+-- Insert Billing
+INSERT INTO Billing VALUES
+(1, 1, 500.0, '2025-05-10'),
+(2, 2, 750.0, '2025-05-11'),
+(3, 3, 600.0, '2025-05-12'),
+(4, 4, 900.0, '2025-05-13'),
+(5, 5, 700.0, '2025-05-14');
+
+-- Insert Prescriptions
+INSERT INTO Prescriptions VALUES
+(1, 1, 1, '500mg', '5 days'),
+(2, 2, 2, '250mg', '7 days'),
+(3, 3, 3, '400mg', '3 days'),
+(4, 4, 1, '500mg', '5 days'),
+(5, 5, 2, '250mg', '10 days');
